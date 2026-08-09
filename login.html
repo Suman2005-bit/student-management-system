@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Page</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Student Login</title>
 </head>
 <body>
+
     <h1>Student Management System</h1>
-    <h2>Login Page</h2>
 
-    <input type="text" placeholder="Username"><br><br>
-    <input type="password" placeholder="Password"><br><br>
+    <h2>Login</h2>
 
-    <button onclick="login()">Login</button>
+    <form>
+        <label>Username:</label>
+        <input type="text" name="username">
+        <br><br>
 
-    <script src="login.js"></script>
+        <label>Password:</label>
+        <input type="password" name="password">
+        <br><br>
+
+        <button type="submit">Login</button>
+    </form>
+
 </body>
 </html>
